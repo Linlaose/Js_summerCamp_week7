@@ -1,0 +1,31 @@
+{
+  "name": "js_summercamp_week7",
+  "version": "1.0.0",
+  "description": "LV1：修改老師的 Codepen，接 API 顯示 Donut 圖\r LV2：依照此 XD 設計稿，用 axios 介接資料，並顯示 C3 圖表\r LV3：做 LV2，並加上上方套票新增時，下方 C3 與套票列表也會即時更新",
+  "main": "index.js",
+  "dependencies": {
+    "asynckit": "^0.4.0",
+    "axios": "^1.1.3",
+    "combined-stream": "^1.0.8",
+    "delayed-stream": "^1.0.0",
+    "follow-redirects": "^1.15.2",
+    "form-data": "^4.0.0",
+    "mime-db": "^1.52.0",
+    "mime-types": "^2.1.35",
+    "proxy-from-env": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Linlaose/Js_summerCamp_week7.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Linlaose/Js_summerCamp_week7/issues"
+  },
+  "homepage": "https://github.com/Linlaose/Js_summerCamp_week7#readme"
+}

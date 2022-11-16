@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>第五週主線</title>
+    <title>第七週主線</title>
     <link href="./css/c3.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link href="./css/style.css" rel="stylesheet" />
   </head>
   <body>
     <section class="addTicket-panel">
@@ -152,14 +152,17 @@
     <section class="main-content">
       <!-- 搜尋區 -->
       <div class="search-area">
-        <select name="" class="regionSearch">
-          <option value="地區搜尋" disabled selected hidden>地區搜尋</option>
-          <option value="">全部地區</option>
-          <option value="台北">台北</option>
-          <option value="台中">台中</option>
-          <option value="高雄">高雄</option>
-        </select>
-        <p id="searchResult-text">本次搜尋共 3 筆資料</p>
+        <div class="search-flex">
+          <select name="" class="regionSearch">
+            <option value="地區搜尋" disabled selected hidden>地區搜尋</option>
+            <option value="">全部地區</option>
+            <option value="台北">台北</option>
+            <option value="台中">台中</option>
+            <option value="高雄">高雄</option>
+          </select>
+          <p id="searchResult-text">本次搜尋共 3 筆資料</p>
+        </div>
+        <div id="chart" class="chart"></div>
       </div>
       <!-- 套票卡片區 -->
       <ul class="ticketCard-area"></ul>
@@ -171,11 +174,10 @@
           alt=""
         />
       </div>
-      <div id="chart"></div>
     </section>
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="./js/c3.min.js"></script>
-    <script src="./js/chart.js"></script>
-    <script src="./js/all.js"></script>
+    <script type="module" src="./js/chart.js"></script>
+    <script type="module" src="./js/all.js"></script>
   </body>
 </html>
