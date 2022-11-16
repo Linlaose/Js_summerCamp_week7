@@ -1,4 +1,5 @@
-import axios from '../node_modules/axios/dist/esm/axios.js';
+// import axios from '../node_modules/axios/dist/esm/axios.js'; // 本地開發路徑
+import axios from '../tree/master/node_modules/axios/dist/esm/axios.js'; // Github 路徑
 import { addChart } from './chart.js';
 
 const ticketName = document.querySelector('#ticketName');
